@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: 14
       - run: yarn install
-      - run: node index.js
+      - run: node index.js 0xb4b133eceac779d8b23d350231b6767ffcdc644e36d298d6b9c2eb5e185e6bf3
       - name: Telegram Failure Notification
         uses: appleboy/telegram-action@0.0.7
         if: failure()
