@@ -4,7 +4,7 @@ A simple utility that calculates Ethereum address from a private key
 
 # Installation
 
-npm i -g eth-privkey
+`npm i -g eth-privkey`
 
 # Usage
 
